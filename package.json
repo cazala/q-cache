@@ -1,0 +1,16 @@
+{
+  "name": "q-cache",
+  "version": "1.0.0",
+  "description": "simple tool to cache promises",
+  "main": "index.js",
+  "keywords": [
+    "q",
+    "promise",
+    "cache"
+  ],
+  "author": "Juan Cazala <cazala@mail.sfsu.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "q": "^1.4.1"
+  }
+}
