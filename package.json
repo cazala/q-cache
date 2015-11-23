@@ -1,6 +1,6 @@
 {
   "name": "q-cache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple tool to cache promises",
   "main": "index.js",
   "keywords": [
