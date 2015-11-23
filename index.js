@@ -7,6 +7,7 @@ var cache = {
 cache.has = function(key) {
   return typeof cache.data[key] != 'undefined';
 }
+
 cache.set = function(key, val) {
   this.data[key] = val;
 }
@@ -18,8 +19,8 @@ cache.get = function(key) {
 }
 
 cache.remove = function(key) {
-  delete this.data[key];
-  return q.defer().promise;
+  delete data[key];
+  return q.resolve();
 }
 
 cache.cache = function(key, callback, expiresInMs) {
